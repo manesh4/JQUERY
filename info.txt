@@ -1,0 +1,56 @@
+jQuery is a JavaScript Library.
+
+jQuery greatly simplifies JavaScript programming.
+
+jQuery is easy to learn.
+
+What is jQuery?
+jQuery is a lightweight, "write less, do more", JavaScript library.
+
+The purpose of jQuery is to make it much easier to use JavaScript on your website.
+
+jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish, 
+and wraps them into methods that you can call with a single line of code.
+
+jQuery also simplifies a lot of the complicated things from JavaScript, like AJAX calls and DOM manipulation.
+
+The jQuery library contains the following features:
+
+HTML/DOM manipulation
+CSS manipulation
+HTML event methods
+Effects and animations
+AJAX
+Utilities
+
+Why jQuery?
+There are lots of other JavaScript libraries out there, but jQuery is probably the most popular,
+ and also the most extendable.
+
+Many of the biggest companies on the Web use jQuery, such as:
+
+Google
+Microsoft
+IBM
+Netflix
+
+<script src="jquery-3.6.4.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+With jQuery you select (query) HTML elements and perform "actions" on them.
+
+Basic syntax is: $(selector).action()
+
+A $ sign to define/access jQuery
+A (selector) to "query (or find)" HTML elements
+A jQuery action() to be performed on the element(s)
+Examples:
+
+$(this).hide() - hides the current element.
+
+$("p").hide() - hides all <p> elements.
+
+$(".test").hide() - hides all elements with class="test".
+
+$("#test").hide() - hides the element with id="test".

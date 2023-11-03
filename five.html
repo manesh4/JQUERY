@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <title>Document</title>
+
+
+    <!-- <style> 
+        #panel, #flip {
+          padding: 5px;
+          font-size: 18px;
+          text-align: center;
+          background-color: #555;
+          color: white;
+          border: solid 1px #666;
+          border-radius: 3px;
+        }
+        
+        #panel {
+          padding: 50px;
+          display: none;
+        }
+        </style> -->
+
+        <!-- <style>
+            .important {
+              font-weight: bold;
+              font-size: xx-large;
+            }
+            
+            .blue {
+              color: blue;
+            }
+            </style> -->
+
+            <style>
+                #div1 {
+                  height: 100px;
+                  width: 300px;
+                  padding: 10px;
+                  margin: 3px;
+                  border: 1px solid blue;
+                  background-color: lightblue;
+                }
+                </style>
+</head>
+<body>
+    <!-- <script> 
+        $(document).ready(function(){
+          $("button").click(function(){
+            $("div").animate({left: '450px'});
+          });
+        });
+        </script> 
+        </head>
+        <body>
+        
+        <button>Start Animation</button>        
+        <div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div> -->
+
+
+        <!-- <script> 
+            $(document).ready(function(){
+              $("button").click(function(){
+                $("div").animate({
+                  left: '350px',
+                  opacity: '0.5',
+                  height: '150px',
+                  width: '150px'
+                });
+              });
+            });
+            </script> 
+            </head>
+            <body>
+            
+            <button>Start Animation</button>            
+            <div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div> -->
+
+            <!-- <script> 
+                $(document).ready(function(){
+                  $("button").click(function(){
+                    var div = $("div");
+                    div.animate({height: '300px', opacity: '0.4'}, "slow");
+                    div.animate({width: '300px', opacity: '0.8'}, "slow");
+                    div.animate({height: '100px', opacity: '0.4'}, "slow");
+                    div.animate({width: '100px', opacity: '0.8'}, "slow");
+                  });
+                });
+                </script> 
+                </head>
+                <body>
+                
+                <button>Start Animation</button>                
+                <div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div> -->
+
+                <!-- <script> 
+                    $(document).ready(function(){
+                      $("#flip").click(function(){
+                        $("#panel").slideDown(5000);
+                      });
+                      $("#stop").click(function(){
+                        $("#panel").stop();
+                      });
+                    });
+                    </script>
+                    <button id="stop">Stop sliding</button>
+                    
+                    <div id="flip">Click to slide down panel</div>
+                    <div id="panel">Hello world!</div> -->
+
+                    <!-- <script>
+                        $(document).ready(function(){
+                          $("button").click(function(){
+                            $("p").hide("slow", function(){
+                              alert("The paragraph is now hidden");
+                            });
+                          });
+                        });
+                        </script>
+                        <button>Hide</button>
+                        
+                        <p>This is a paragraph with little content.</p> -->
+
+                        <!-- <script>
+                            $(document).ready(function(){
+                              $("button").click(function(){
+                                $("#p1").css("color", "red").slideUp(2000).slideDown(2000);
+                              });
+                            });
+                            </script>
+                            <p id="p1">welcome to jqery..!</p>
+                            
+                            <button>Click me</button> -->
+
+                            <!-- <script>
+                                $(document).ready(function(){
+                                  $("#btn1").click(function(){
+                                    alert("Text: " + $("#test").text());
+                                  });
+                                  $("#btn2").click(function(){
+                                    alert("HTML: " + $("#test").html());
+                                  });
+                                });
+                                </script>
+                                <p id="test">This is some <b>bold</b> text in a paragraph.</p>
+                                
+                                <button id="btn1">Show Text</button>
+                                <button id="btn2">Show HTML</button> -->
+
+
+                                <!-- <script>
+                                    $(document).ready(function(){
+                                      $("#btn1").click(function(){
+                                        $("#test1").text("Hello world!");
+                                      });
+                                      $("#btn2").click(function(){
+                                        $("#test2").html("<b>Hello world!</b>");
+                                      });
+                                      $("#btn3").click(function(){
+                                        $("#test3").val("Prem mahajan");
+                                      });
+                                    });
+                                    </script>
+                                    <p id="test1">This is a paragraph.</p>
+                                    <p id="test2">This is another paragraph.</p>
+                                    
+                                    <p>Input field: <input type="text" id="test3" value="Anand Mehata"></p>
+                                    
+                                    <button id="btn1">Set Text</button>
+                                    <button id="btn2">Set HTML</button>
+                                    <button id="btn3">Set Value</button> -->
+
+
+                                    <!-- <script>
+                                        $(document).ready(function(){
+                                          $("#btn1").click(function(){
+                                            $("p").append(" <b>Appended text</b>.");
+                                          });
+                                        
+                                          $("#btn2").click(function(){
+                                            $("ol").append("<li>Appended item</li>");
+                                          });
+                                        });
+                                        </script>
+                                        
+                                        <p>This is a paragraph.</p>
+                                        <p>This is another paragraph.</p>
+                                        
+                                        <ol>
+                                          <li>List item 1</li>
+                                          <li>List item 2</li>
+                                          <li>List item 3</li>
+                                        </ol>
+                                        
+                                        <button id="btn1">Append text</button>
+                                        <button id="btn2">Append list items</button> -->
+
+                                        <!-- <script>
+                                            $(document).ready(function(){
+                                              $("button").click(function(){
+                                                $("h1, h2, p").addClass("blue");
+                                                $("div").addClass("important");
+                                              });
+                                            });
+                                            </script>
+                                            <h1>Heading 1</h1>
+                                            <h2>Heading 2</h2>
+                                            
+                                            <p>This is a paragraph.</p>
+                                            <p>This is another paragraph.</p>
+                                            
+                                            <div>This is some important text!</div><br>
+                                            
+                                            <button>Add classes to elements</button> -->
+
+                                            <!-- <script>
+                                                $(document).ready(function(){
+                                                  $("button").click(function(){
+                                                    alert("Background color = " + $("p").css("background-color"));
+                                                  });
+                                                });
+                                                </script>
+                                                <p style="background-color:#ff0000">This is a paragraph.</p>
+                                                <p style="background-color:#00ff00">This is a paragraph.</p>
+                                                <p style="background-color:#0000ff">This is a paragraph.</p>
+                                                
+                                                <button>Return background-color of p</button> -->
+
+                                                <script>
+                                                    $(document).ready(function(){
+                                                      $("button").click(function(){
+                                                        var txt = "";
+                                                        txt += "Width of div: " + $("#div1").width() + "</br>";
+                                                        txt += "Height of div: " + $("#div1").height() + "</br>";
+                                                        txt += "Outer width of div: " + $("#div1").outerWidth() + "</br>";
+                                                        txt += "Outer height of div: " + $("#div1").outerHeight();
+                                                        $("#div1").html(txt);
+                                                      });
+                                                    });
+                                                    </script>
+                                                    <div id="div1"></div>
+                                                    <br>
+                                                    
+                                                    <button>Display dimensions of div</button>
+
+                
+</body>
+</html>
